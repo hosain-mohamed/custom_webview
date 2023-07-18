@@ -368,7 +368,7 @@ class _InAppWebViewState extends State<InAppWebView> {
               viewType: 'com.pichillilorenzo/flutter_inappwebview',
               layoutDirection: TextDirection.rtl,
               creationParams: <String, dynamic>{
-                'initialUrlRequest': (widget.initialUrlRequest ?? URLRequest(url: Uri.parse("about:blank"))).toMap(),
+                'initialUrl': '${Uri.parse(widget.initialUrl)}',
                 'initialFile': widget.initialFile,
                 'initialData': widget.initialData?.toMap(),
                 'initialOptions': widget.initialOptions?.toMap() ?? {},
@@ -451,6 +451,7 @@ class _InAppWebViewState extends State<InAppWebView> {
   }
 
   void _onPlatformViewCreated(int id) {
+    
     _controller = InAppWebViewController(id, widget);
     if (widget.onWebViewCreated != null) {
       widget.onWebViewCreated(_controller);
