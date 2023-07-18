@@ -1,4 +1,4 @@
-name: flutter_inappwebview
+name: custom_flutter_inappwebview
 description: A Flutter plugin that allows you to add an inline webview, to use an headless webview, and to open an in-app browser window.
 version: 4.0.0+4
 homepage: https://github.com/pichillilorenzo/flutter_inappwebview
