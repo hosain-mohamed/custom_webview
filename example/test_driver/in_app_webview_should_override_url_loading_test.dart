@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:io' show Platform;
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:custom_flutter_inappwebview/flutter_inappwebview.dart';
 
 import 'custom_widget_test.dart';
 import 'main_test.dart';

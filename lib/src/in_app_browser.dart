@@ -4,7 +4,7 @@ import 'dart:typed_data';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:custom_flutter_inappwebview/flutter_inappwebview.dart';
 import 'context_menu.dart';
 import 'in_app_webview_controller.dart';
 import 'webview_options.dart';
