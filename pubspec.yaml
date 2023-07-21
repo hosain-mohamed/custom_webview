@@ -27,8 +27,8 @@ flutter:
         pluginClass: InAppWebViewFlutterPlugin
 
   assets:
-    - packages/flutter_inappwebview/t_rex_runner/t-rex.html
-    - packages/flutter_inappwebview/t_rex_runner/t-rex.css
+    - packages/custom_flutter_inappwebview/t_rex_runner/t-rex.html
+    - packages/custom_flutter_inappwebview/t_rex_runner/t-rex.css
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg

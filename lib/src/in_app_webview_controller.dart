@@ -1588,14 +1588,14 @@ class InAppWebViewController {
 
   ///Gets the html (with javascript) of the Chromium's t-rex runner game. Used in combination with [getTRexRunnerCss()].
   Future<String> getTRexRunnerHtml() async {
-    return await rootBundle
-        .loadString("packages/flutter_inappwebview/t_rex_runner/t-rex.html");
+    return await rootBundle.loadString(
+        "packages/custom_flutter_inappwebview/t_rex_runner/t-rex.html");
   }
 
   ///Gets the css of the Chromium's t-rex runner game. Used in combination with [getTRexRunnerHtml()].
   Future<String> getTRexRunnerCss() async {
-    return await rootBundle
-        .loadString("packages/flutter_inappwebview/t_rex_runner/t-rex.css");
+    return await rootBundle.loadString(
+        "packages/custom_flutter_inappwebview/t_rex_runner/t-rex.css");
   }
 
   ///Scrolls the WebView to the position.
